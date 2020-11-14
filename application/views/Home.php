@@ -31,19 +31,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Sinopsis del juego <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#"> Galeria Personajes <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Foros <span class="sr-only">(current)</span></a>
+                </li>
             </ul>
         </div>
     </nav>
-  <!-- nac Final -->
+  <!-- nav Final -->
         <div class="container">
             <div class="row justify-content-center">
                     <div class="col-4">
                         <h1>Configurado</h1>
                      </div>
+                     <div class="col-4">
+                        <h1>Configurado</h1>
+                     </div>
+                     <div class="col-4">
+                        <h1>Configurado</h1>
+                     </div>
+                     
             </div>
         </div>
 
-
+<!-- inicio footer -->
+    <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+        <div class="container">
+            <span class="text-light">Hola soy el footer  :V9 </span>
+        </div>
+    </footer>
+<!-- fin footer -->
 
 
 
