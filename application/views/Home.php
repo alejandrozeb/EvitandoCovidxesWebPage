@@ -47,15 +47,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </nav>
   <!-- nav Final -->
+  <!-- Inicio main -->
+  <!-- <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image"> -->
+      <div class="portada">
+            <div class="text">
+                
+            </div>    
+      </div>    
+     <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-12">
+                <h1>Configurado</h1>
+            </div>
+        </div>       
+     </div>
+  <main>
+  
+  </main>
+  <!-- Fin inicio -->
         <div class="container">
             <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-4 col-sm-12">
                         <h1>Configurado</h1>
                      </div>
-                     <div class="col-4">
+                     <div class="col-4 col-sm-12">
                         <h1>Configurado</h1>
                      </div>
-                     <div class="col-4">
+                     <div class="col-4 col-sm-12">
                         <h1>Configurado</h1>
                      </div>
                      

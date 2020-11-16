@@ -1,3 +1,7 @@
 body{
-    background-color: darkgrey;
+    background-color: red;
+    background-image: url("./imagenes/imagen-png");
+}
+.portada{
+    background-image: url("./imagenes/imagen-png");
 }
