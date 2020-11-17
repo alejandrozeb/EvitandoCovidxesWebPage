@@ -10,4 +10,8 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('galeriaPersonajes');
 	}
+	public function comoJugar()
+	{
+		$this->load->view('');
+	}
 }
