@@ -92,6 +92,58 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>    
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">  Padre </h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-2 col-sm-2">
+                    <img src="<?php echo base_url();?>imagenes/padre.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2" >
+                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        </h3>
+                </div>    
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">  Hija </h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-2 col-sm-2">
+                    <img src="<?php echo base_url();?>imagenes/hija.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2" >
+                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        </h3>
+                </div>    
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">Escenario</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-9 col-sm-9">
+                    <img src="<?php echo base_url();?>imagenes/covidxe.gif" class="img-fluid" alt="Responsive image">
+                    <img src="<?php echo base_url();?>imagenes/covidxe.gif" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2" >
+                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        </h3>
+                </div>    
+            </div>
+        </div>
         </main>
         
         
