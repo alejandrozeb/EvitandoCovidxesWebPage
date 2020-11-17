@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
 
   <!-- nav Inicio -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <a class="navbar-brand text-white" href="#">Evitando Covidxes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,9 +48,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </nav>
   <!-- nav Final -->
   <!-- Inicio main -->
-  <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">    
+  <img src="<?php echo base_url();?>imagenes/imagen2.png" class="img-fluid" alt="Responsive image">    
   <main>
-  
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-sm-12 p-5 bg-dark">
+                <h3 class="text-light" >
+                Evitando Covidxes es un juego en 2D tipo runner donde toma al personaje DOCDOC que trata de llevar medicinas a las familias que más lo necesitan en el camino se enfrenta contra los covidxes, todo esto pasa en los departamentos de Bolivia.
+                </h3>
+            </div>
+        </div>
+    </div>
   </main>
   <!-- Fin inicio -->
         <div class="container">
