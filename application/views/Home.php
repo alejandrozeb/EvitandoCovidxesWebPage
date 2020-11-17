@@ -41,6 +41,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a class="nav-link text-white" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">¿Como se juega? <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link text-white" href="#">Foros <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -52,32 +55,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <main>
     <div class="container">
         <div class="row">
-            <div class="col-8 col-sm-12 p-5 bg-dark">
+            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                 <h3 class="text-light" >
                 Evitando Covidxes es un juego en 2D tipo runner donde toma al personaje DOCDOC que trata de llevar medicinas a las familias que más lo necesitan en el camino se enfrenta contra los covidxes, todo esto pasa en los departamentos de Bolivia.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+            <h1 class="text-dark">Descubre la aventura</h1>
+            </div>
+            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">
+                <h3 class="text-light m-2" >
+                El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+            <h1 class="text-dark">  TRAILER</h1>
+            </div>
+            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">
+                <h3 class="text-light m-2 text-center" >
+                    Un vistazo
                 </h3>
             </div>
         </div>
     </div>
   </main>
   <!-- Fin inicio -->
-        <div class="container">
-            <div class="row justify-content-center">
-                    <div class="col-4 col-sm-12">
-                        <h1>Configurado</h1>
-                     </div>
-                     <div class="col-4 col-sm-12">
-                        <h1>Configurado</h1>
-                     </div>
-                     <div class="col-4 col-sm-12">
-                        <h1>Configurado</h1>
-                     </div>
-                     
-            </div>
-        </div>
-
 <!-- inicio footer -->
-    <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+    <footer class="footer mt-3 py-3 bg-dark">
         <div class="container">
             <span class="text-light">Hola soy el footer  :V9 </span>
         </div>
