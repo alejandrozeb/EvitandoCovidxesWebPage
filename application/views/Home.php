@@ -29,22 +29,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link text-white" href="#">Sinopsis del juego <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="#"> Galeria Personajes <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
                     <a class="nav-link text-white" href="#">¿Como se juega? <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="#">Foros <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light btn btn-outline-light" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
