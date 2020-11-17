@@ -47,44 +47,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </nav>
   <!-- nav Final -->
-  <!-- Inicio main -->
-  <img src="<?php echo base_url();?>imagenes/imagen2.png" class="img-fluid" alt="Responsive image">    
-  <main>
-    <div class="container">
-        <div class="row">
-            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
-                <h3 class="text-light" >
-                Evitando Covidxes es un juego en 2D tipo runner donde toma al personaje DOCDOC que trata de llevar medicinas a las familias que más lo necesitan en el camino se enfrenta contra los covidxes, todo esto pasa en los departamentos de Bolivia.
-                </h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center" id="desAve">
-            <h1 class="text-dark">Descubre la aventura</h1>
-            </div>
-            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
-                <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">
-                <h3 class="text-light m-2" >
-                El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
-                </h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-            <h1 class="text-dark">  TRAILER</h1>
-            </div>
-            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
-                <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">
-                <h3 class="text-light m-2 text-center" >
-                    Un vistazo
-                </h3>
-            </div>
-        </div>
-    </div>
-  </main>
-  <!-- Fin inicio -->
-<!-- inicio footer -->
-    <footer class="footer mt-3 py-3 bg-dark">
+
+  <!-- inicio footer -->
+  <footer class="footer mt-3 py-3 bg-dark">
         <div class="container">
             <span class="text-light">Contactame </span>
             <ul class="text-light">
@@ -101,25 +66,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </footer>
 <!-- fin footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
-  </body>
-</html>
