@@ -89,7 +89,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- inicio footer -->
     <footer class="footer mt-3 py-3 bg-dark">
         <div class="container">
-            <span class="text-light">Hola soy el footer  :V9 </span>
+            <span class="text-light">Contactame </span>
+            <ul class="text-light">
+                <li>
+                   Email: alejandrojzeballos@gmail.com 
+                </li>
+                <li>
+                   Facebook: Zeballos Alejandro 
+                </li>
+                <li>
+                   Git: Zeballos Alejandro 
+                </li>
+            </ul>
         </div>
     </footer>
 <!-- fin footer -->
