@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p>Usa los ladrillos para evitar a los covidxes.</p>    
                         </h3>
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-lg-6 col-sm-6 col-xs-9 align-self-center">
                     <img src="<?php echo base_url();?>imagenes/juego1.png" class="img-fluid m-3" alt="Responsive image">
                 </div>    
             </div>
@@ -93,18 +93,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-4">
+                <div class="col-lg-6 col-sm-9 col-xs-9 mt-3">
+                    <img src="<?php echo base_url();?>imagenes/juego3.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-lg-6 col-sm-9 col-xs-9 mt-3">
                     <img src="<?php echo base_url();?>imagenes/juego2.png" class="img-fluid" alt="Responsive image">
                 </div>
-                <div class="col-4">
-                    <img src="<?php echo base_url();?>imagenes/controles.png" class="img-fluid" alt="Responsive image">
-                </div>
-                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                <div class="col-8 col-xs-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2 text-center" >
-                        <p>W para saltar</p>    
-                        <p>A para ir a la izquierda</p> 
-                        <p>D para ir a la derecha</p>
-                        <p>S para caer</p>
+                        <p>Evita a los covidxes saltando sobre ellos solo podrás tocarlos una vez, úsalo sabiamente. </p>    
                         </h3>
                 </div>    
             </div>
