@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2" >
-                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        DOCDOC está inspirado en los médicos que recorren las calles en las brigadas médicas para prevenir el covid, algunas veces no muy protegidos y otras perfectamente equipados a medida que se va pasando de nivel ganaras implementos que te ayudaran a luchar contra los covidxes.
                         </h3>
                 </div>    
             </div>
@@ -87,7 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2" >
-                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        Un covixde está inspirado en el covid un virus que camina entre las calles en busca de familias a quien infectar, cada cierto tiempo va saliendo uno y el personaje principal no puede tocarlo si no tiene protección.
                         </h3>
                 </div>    
             </div>
@@ -104,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2" >
-                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        Encargado de cuidar a su familia está a la espera que su amigo llegue a ayudarlo.
                         </h3>
                 </div>    
             </div>
@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2" >
-                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        Emocionada por conocer a su amigo que combate contra los covidxes.
                         </h3>
                 </div>    
             </div>
@@ -129,17 +129,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-dark">Escenario</h1>
+                    <h1 class="text-dark">Escenario Nivel 1</h1>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col-9 col-sm-9">
-                    <img src="<?php echo base_url();?>imagenes/covidxe.gif" class="img-fluid" alt="Responsive image">
-                    <img src="<?php echo base_url();?>imagenes/covidxe.gif" class="img-fluid" alt="Responsive image">
-                </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <img src="<?php echo base_url();?>imagenes/imagen1.png" class="img-fluid" alt="Responsive image">
                         <h3 class="text-light m-2" >
-                        El juego se basa en la Pandemia del coronavirus por la que estamos pasando y el rol que cumplen los médicos en las brigadas médicas para poder controlar dicha enfermedad donde controlamos a un personaje inspirado en los médicos y debemos pasar por diferentes locaciones de Bolivia para entregar los medicamentos a las familias que lo necesitan mientras nos enfrentamos a los covidxes.
+                        Escenario basado en las calles de la cuidad de La Paz en este escenario se desarrolla el primer nivel del juego.
+                        </h3>
+                </div>    
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">Escenario Final</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <img src="<?php echo base_url();?>imagenes/imagen3.png" class="img-fluid" alt="Responsive image">
+                        <h3 class="text-light m-2" >
+                        Escenario final donde nuestro personaje debe llegar a entregar las medicinas.
                         </h3>
                 </div>    
             </div>
