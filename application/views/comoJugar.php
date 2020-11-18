@@ -71,16 +71,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-dark"> Ladrillos</h1>
+                    <h1 class="text-dark"> Objetos</h1>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="<?php echo base_url();?>imagenes/ladrillos.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2 text-center" >
+                        <p>Usa los ladrillos para evitar a los covidxes.</p>    
+                        </h3>
+                </div>
+                <div class="col-6 align-self-center">
+                    <img src="<?php echo base_url();?>imagenes/juego1.png" class="img-fluid m-3" alt="Responsive image">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">Evitalos</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="<?php echo base_url();?>imagenes/juego2.png" class="img-fluid" alt="Responsive image">
+                </div>
                 <div class="col-4">
                     <img src="<?php echo base_url();?>imagenes/controles.png" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
                         <h3 class="text-light m-2 text-center" >
-                        <p></p>    
+                        <p>W para saltar</p>    
+                        <p>A para ir a la izquierda</p> 
+                        <p>D para ir a la derecha</p>
+                        <p>S para caer</p>
                         </h3>
                 </div>    
             </div>
