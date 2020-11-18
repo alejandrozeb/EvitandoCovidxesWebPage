@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <!-- nav Inicio -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <a class="navbar-brand text-white" href="#">Evitando Covidxes</a>
+        <a class="navbar-brand text-white" href="<?php echo site_url();?>">Evitando Covidxes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,16 +29,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#desAve">Descubre la aventura <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="<?php echo site_url();?>">Descubre la aventura <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#"> Galeria Personajes <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="<?php echo site_url();?>home/galeriaPersonajes"> Galeria Personajes <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">¿Como se juega? <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="<?php echo site_url();?>home/comoJugar">¿Como se juega? <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Foros <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="<?php echo site_url();?>home/foros">Foros <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-light btn btn-outline-light" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
@@ -177,6 +177,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                 <li>
                    Git: Zeballos Alejandro 
+                </li>
+                <li>
+                   Juego Desarrollado en: Phaser 3 
                 </li>
             </ul>
         </div>

@@ -14,4 +14,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('comoJugar');
 	}
+	public function foros()
+	{
+		echo 'vista Foros';	
+		//$this->load->view('comoJugar');
+	}
 }
