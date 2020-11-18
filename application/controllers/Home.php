@@ -12,6 +12,6 @@ class Home extends CI_Controller {
 	}
 	public function comoJugar()
 	{
-		$this->load->view('');
+		$this->load->view('comoJugar');
 	}
 }
