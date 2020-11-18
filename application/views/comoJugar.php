@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Asistente AEE</title>
+    <title>Evitando Covidxes</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href= "<?php echo base_url();?>assets/css/bootstrap.min.css">
@@ -49,18 +49,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <!-- nav Final -->
   <!-- Inicio main -->
   <img src="<?php echo base_url();?>imagenes/imagen2.png" class="img-fluid" alt="Responsive image">    
-  <main>
-    <div class="container mt-2">
-        <div class="row">
-            <div class="col-12 col-sm-12 text-center">
-                <h1 class="text-dark">Controles</h1>
+  <main>  
+      <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark">  Controles</h1>
+                </div>
             </div>
-            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
-                <h3 class="text-light" >
-                controles
-                </h3>
+            <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="<?php echo base_url();?>imagenes/controles.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2 text-center" >
+                        <p>W para saltar</p>    
+                        <p>A para ir a la izquierda</p> 
+                        <p>D para ir a la derecha</p>
+                        <p>S para caer</p>
+                        </h3>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-dark"> Ladrillos</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-4">
+                    <img src="<?php echo base_url();?>imagenes/controles.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                        <h3 class="text-light m-2 text-center" >
+                        <p></p>    
+                        </h3>
+                </div>    
             </div>
         </div>
+
   </main>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
