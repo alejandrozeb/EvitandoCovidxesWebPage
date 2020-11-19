@@ -4,7 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
-        $this->load->model('Foro_model');
+		$this->load->model('Foro_model');
+		$this->load->helper('download');
 	} 
 	public function index()
 	{
@@ -52,5 +53,11 @@ class Home extends CI_Controller {
             exit;
 		}
 		redirect('home/foroData','refresh');
+	}
+
+	public function download(){
+		$data = file_get_contents(base_url().'download/evitandocovidxes.zip');
+		$name='EvitandoCovidxes.zip';
+		force_download($name,$data);
 	}
 }
