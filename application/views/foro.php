@@ -56,18 +56,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h1 class="text-dark">Foro</h1>
                 </div>
             <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
-            <form>
+            <?php echo form_open('home/foroProcessForm');?>
                 <div class="form-group text-light">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="u_email" aria-describedby="emailHelp" required>
                 </div>
                 <div class="form-group text-light">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="exampleInputEmail1">Nombre o nickname</label>
+                    <input type="text" class="form-control" id="exampleInputText" name="u_nombre" aria-describedby="emailHelp" required>
                 </div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
-            </form>
+                <div class="form-group text-light">
+                    <label for="exampleInputPassword1">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="u_comentario" placeholder="Escribe tus comentarios o preguntas" required></textarea>
+                </div>
+                <button type="submit" name="u_form" class="btn btn-secondary">Enviar</button>
+            <?php echo form_close(); ?>
             </div>
             
             <div class="col-12 text-center">
