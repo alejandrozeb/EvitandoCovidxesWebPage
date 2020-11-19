@@ -8,6 +8,14 @@ class Foro_model extends CI_Model{
         else
             return true; 
     }
+    public function obtenerComentarios(){
+        $query = $this->db->select('*')
+                ->get('foro');
+        if(isset($query))
+            return $query->result_array();
+        else
+            return null;
+    }
 }
 
 ?>

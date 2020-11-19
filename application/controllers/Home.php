@@ -20,7 +20,14 @@ class Home extends CI_Controller {
 	}
 	//muestra todos los comentarios
 	public function foroData(){
-
+		$dataForo=$this->Foro_model->obtenerComentarios();
+		if($dataForo==null){
+			$this->output->set_status_header(500);
+            echo json_encode(array('msg' => 'Error en la consulta'));
+            exit;
+		} 
+		$this->session->set_userdata('dataForo',$dataForo);
+		redirect('home/foros','refresh');
 	}
 	//formulario
 	public function foros()
@@ -39,7 +46,6 @@ class Home extends CI_Controller {
 			'u_email' => $u_email,
 			'u_comentario' => $u_comentario
 		);
-		var_dump($foro_detalles);
 		if(!$this->Foro_model->insertarUsuario($foro_detalles)){
 			$this->output->set_status_header(500);
             echo json_encode(array('msg' => 'Error al crear comentario'));
