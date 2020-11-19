@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 $dataForo = $this->session->userdata('dataForo');
-var_dump($dataForo);
 ?>
 <!doctype html>
 <html lang="en">
@@ -54,13 +53,26 @@ var_dump($dataForo);
   <main>
     <div class="container">
         <div class="row">
+            <?php foreach ($dataForo as $foro) {
+            ?>
             <div class="col-12 text-center">
-                    <h1 class="text-dark">Respuestas</h1>
+                    <h1 class="text-dark">Respuesta</h1>
             </div>
+            <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+                    <h2 class="text-light"><p class="text-white-50">NickName: </p> <?php echo $foro['u_nombre']; ?></h2>
+                    <h3 class="text-light m-2" >
+                        <p class="text-white-50">Comentario: </p>
+                        <?php echo $foro['u_comentario']; ?> 
+                    </h3>
+            </div>
+
+            <?php    
+            } ?> 
                 <div class="col-12 text-center mt-3">
                     <h1 class="text-dark">Foro</h1>
                 </div>
             <div class="col-8 col-sm-10 p-5 m-5 bg-dark rounded align-self-center">
+            <img src="<?php echo base_url();?>imagenes/covidxe3.png" class="img-fluid" alt="Responsive image">
             <?php echo form_open('home/foroProcessForm');?>
                 <div class="form-group text-light">
                     <label for="exampleInputEmail1">Email</label>
