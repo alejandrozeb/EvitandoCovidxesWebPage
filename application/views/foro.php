@@ -1,5 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$dataForo = $this->session->userdata('dataForo');
+var_dump($dataForo);
 ?>
 <!doctype html>
 <html lang="en">
@@ -38,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a class="nav-link text-white" href="<?php echo site_url();?>home/comoJugar">¿Como se juega? <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="<?php echo site_url();?>home/foros">Foros <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="<?php echo site_url();?>home/foroData">Foros <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link text-light btn btn-outline-light" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
@@ -52,6 +54,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <main>
     <div class="container">
         <div class="row">
+            <div class="col-12 text-center">
+                    <h1 class="text-dark">Respuestas</h1>
+            </div>
                 <div class="col-12 text-center mt-3">
                     <h1 class="text-dark">Foro</h1>
                 </div>
@@ -71,10 +76,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <button type="submit" name="u_form" class="btn btn-secondary">Enviar</button>
             <?php echo form_close(); ?>
-            </div>
-            
-            <div class="col-12 text-center">
-                    <h1 class="text-dark">Respuestas</h1>
             </div>
         </div>
     </div>
