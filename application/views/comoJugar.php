@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a class="nav-link text-white" href="<?php echo site_url();?>home/foroData">Foros <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-light btn btn-outline-light" href="#">Juega Gratis <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-light btn btn-outline-light" href="<?php echo site_url();?>home/download">Juega Gratis <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
