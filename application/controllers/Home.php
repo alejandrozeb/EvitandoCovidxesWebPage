@@ -61,3 +61,4 @@ class Home extends CI_Controller {
 		force_download($name,$data);
 	}
 }
+//http://alejandrophp.000webhostapp.com/EvitandoCovidxesPage/
